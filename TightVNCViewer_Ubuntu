@@ -1,6 +1,6 @@
 #4. Installation du Client Linux#
 
-Installation d'une application VNC, TightVNCViewer, sur un client Linux, dans le cas présent sur la version d'Ubuntu 24.04 LTS à jour pour le lier à une machine vituelle serveur Windows et se connecter dessus. Le serveur en question est l'OS Windows Server 2022, préalablement installé et configuré de TightVNCServer (Voir partie 1).  
+Installation d'une application VNC, TightVNCViewer, sur un client Linux, dans le cas présent sur la version d'Ubuntu 24.04 LTS à jour pour le lier à une machine vituelle serveur Windows et se connecter dessus. Le serveur en question est l'OS Windows Server 2022 GUI (interface graphique), préalablement installé et configuré de TightVNCServer (Voir partie 1).  
 
 
 - Mettre en route la machine Ubuntu qui se nomme ici "ubu01".
@@ -12,7 +12,7 @@ Installation d'une application VNC, TightVNCViewer, sur un client Linux, dans le
 - Une fois l'installation effectuée, mettre en route à côté la machine serveur Windows, ici nommée "srvwin01".  
 - Vérifier que le processus TightVNCServer est bien actif : 
   Deux manières de faire :
-  * Avec un CLI (via une invite de commandes ou plus communément appelé "Shell") :
+  * Avec une invite de commandes ou plus communément appelé "Shell" :
     - Rechercher dans la barre de recherche le logiciel "PowerShell".
     - Ouvrir PowerShell en tant qu'Administrateur avec une action de clic droit dessus.
     - Taper la ligne de commande `Get-Process -Name tvnserver`.
