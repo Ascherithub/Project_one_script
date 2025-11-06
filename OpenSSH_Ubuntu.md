@@ -17,6 +17,6 @@ Installation de l'application OpenSSH, sur un client Linux, dans le cas présent
 - Laisser de côté "srvlx01" et revenir sur "ubu01". Taper ensuite la ligne de commande `ssh nom_utilisateur@adresse_ip_ou_nom_du_serveur` (ici le nom d'utilisateur est "wilder" et le nom du serveur est "srvlx01", comme celui de la machine, avec comme adresse ip 172.16.10.6 auparavant indiqué dans les prérequis) pour créer une clé SSH avec la machine "srvlx01".
 - Taper `yes`.
 - Taper le mot de passe de la machine "srvlx01".
-- On constate bien un changement nom de machine à côté du @.
+- On constate bien un changement nom de machine à côté du `@` .
 - Voilà, vous avez connecté le client Linux au serveur Linux !
  
