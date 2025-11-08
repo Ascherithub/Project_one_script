@@ -40,7 +40,7 @@
 ---
 - Une fois l'installation effectuée, mettre en route à côté la machine serveur Windows, ici nommée "srvwin01".
 
-![Image06](https://github.com/WildCodeSchool/TSSR-1025-P1-G1/blob/main/Ressources/Screens_INSTALL/Client_Linux%20/TightVNC/06_TightVNC_Client_Linux.png)
+<img src="https://github.com/WildCodeSchool/TSSR-1025-P1-G1/blob/main/Ressources/Screens_INSTALL/Client_Linux%20/TightVNC/06_TightVNC_Client_Linux.png" width="500" height="400"/>
 
 ---
 - Vérifier que le processus TightVNCServer est bien actif :   
@@ -65,7 +65,7 @@
    
 ---
      
-* "tvnserver" étant le processus de TightVNCServer, on peut le vérifier avec la ligne de commande suivante : `Get-Process -Name tvnserver -FileVersionInfo | Format-List`
+* "tvnserver" étant le processus de TightVNCServer, on peut le vérifier avec la ligne de commande suivante :   `Get-Process -Name tvnserver -FileVersionInfo | Format-List`
 
 * On constate donc que "tvnserver" est en cours et qu'il s'agit bien du processus de TightVNCServer.
 
