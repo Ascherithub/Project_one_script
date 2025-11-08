@@ -65,7 +65,8 @@
    
 ---
      
-* "tvnserver" étant le processus de TightVNCServer, on peut le vérifier avec la ligne de commande suivante :   `Get-Process -Name tvnserver -FileVersionInfo | Format-List`
+* "tvnserver" étant le processus de TightVNCServer, on peut le vérifier avec la ligne de commande suivante :  
+`Get-Process -Name tvnserver -FileVersionInfo | Format-List`
 
 * On constate donc que "tvnserver" est en cours et qu'il s'agit bien du processus de TightVNCServer.
 
